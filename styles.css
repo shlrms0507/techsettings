@@ -1,0 +1,189 @@
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: 'Iceberg', cursive;
+  font-size: 4rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+h2 {
+  font-family: 'Montserrat';
+}
+
+/* Headings */
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title {
+  background-color: #2b2b28;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 3.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Iceberg', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.icon-image {
+  padding: 0px 4px;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 80%;
+  transform: rotate(20deg);
+  margin-left: 50px;
+  margin-bottom: 70px;
+}
+
+/* Features Section */
+
+.icon {
+  font-size: 4rem;
+  padding-bottom: 10px;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c86;
+}
+
+#features {
+  padding: 3%;
+}
+
+.feature-box {
+  padding: 5% 25px;
+
+}
+
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #2b2b28;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #2b2b28;
+  padding-bottom: 3%;
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta {
+  padding: 100px;
+  background-color: #2b2b28;
+  color: #fff;
+  line-height: 1.5;
+
+}
+
+.cta-heading {
+  margin: auto;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  width: 80%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.btn-download {
+  margin-top: 50px;
+  margin: 30px 15px;
+}
+
+#footer {
+  padding: 7% 15%;
+}
+
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    padding: 0;
+    margin: 50px 15px 0 0;
+  }
+
+  .container-fluid {
+    padding-bottom: 10%;
+  }
+}

@@ -1,1 +1,1 @@
-# techsettings
+TinDog Starting Files
